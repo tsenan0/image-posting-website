@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script defer type="text/javascript"
+src="../js/registration.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+</head>
+<body>
+    <div class="container">
+        <form id="signup" class="form"
+           method = "POST" 
+           action="/users/register"
+           enctype ="application/x-www-form-urlencoded">
+          <h1>Registration</h1>
+         
+            <div class="form-field">
+                <label for="username">Username:</label>
+                <input type="text" name="username" id="username" autocomplete="off">
+                <small></small>
+            </div>
+
+            <div class="form-field">
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email"  autocomplete="off">
+                <small></small>
+            </div>
+
+            <div class="form-field">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" autocomplete="off">
+                <small></small>
+            </div>
+
+
+            <div class="form-field">
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" name="confirmPassword" id="confirm-password" autocomplete="off">
+                <small></small>
+            </div>
+
+            <div class="form-field">
+              <label for="yes_no_radio">Are you 13+ years of age?</label>
+
+               <input type="radio" name="yes_no" id="yes" value="yes" required>
+                        Yes
+                    </label><br>
+              
+              
+              <input type="radio" name="yes_no">No</input>
+            </div>
+            </br>
+          </br>
+              
+          <div class="form-field">
+            <label for="yes_no_radio">Do you agree to Terms of Service?</label>
+
+             <input type="radio" name="yes_no" id="yes" value="yes" required>
+                        Yes
+            
+            
+            <input type="radio" name="y_n">No</input>
+
+           
+            
+            <input type="submit" value="Register">
+            </div>
+        </form>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
+
+
+
+
+
+

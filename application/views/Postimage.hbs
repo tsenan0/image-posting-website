@@ -1,0 +1,25 @@
+<html lang = "en">
+<header>
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+<h2> Post Image Here </h2>
+</header>
+
+
+
+<form id="post=image" class="input-form"
+action="/posts/create"
+method="post"
+enctype="multipart/form-data">
+<label for="name"> Image Title</label>
+<input type="text"  required placeholder= "Title" name="title"
+name = "description" required />
+
+<label for="name">Image Description</label>
+<input type="text" required placeholder= "Description" name="description" />
+<label for="name">Select Image</label>
+<input type="file" id="user agreement"name="uploadImage"/>
+<br />
+<input type="checkbox" id="accept agree" name="agreement" value="yes">
+<label for="agreement"> I Accept Use Policy for Uploading Images</label><br>
+<input type= "submit" />
+

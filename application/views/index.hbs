@@ -1,0 +1,32 @@
+<html lang = "en">
+<head>
+  <script defer type="text/javascript"
+  src="../js/fetch.js"></script>
+ 
+<h2> Home Menu</h2>
+
+
+<br>
+ 
+<div class="cards-container">
+            {{#each results}}
+                <div class="cards" style="color:white">
+                    <img src="/{{this.thumbnail}}" alt="">
+                    <p>{{this.title}}</p>
+                    <p>{{this.description}}</p>
+                    <a href="/posts/{{this.id}}">Details</a>
+                </div>
+            {{/each}}
+        </div>
+
+
+    {{!-- <div id="count">
+      <button type="button" onclick="loadXMLDoc()">
+        Reveal Images
+      </button>
+    </div>
+    <div id="demo"></div>
+    <script>
+    </script>
+  </body>
+</html> --}}
