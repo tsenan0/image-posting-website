@@ -1,4 +1,4 @@
-# personal-website meant to replicate popular image loading sites such as imgur.
+# This is a website meant to replicate popular image loading sites such as imgur.
 
 # Build/Run Instructions
 1. Use chrome for best performance 
